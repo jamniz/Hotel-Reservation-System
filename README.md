@@ -3,6 +3,10 @@
 
 🔹 **Un projet imaginé pour apprendre, tester et expérimenter**  
 🔹 **Un hôtel qui n’existe pas, mais un système qui pourrait être utilisé dans le monde réel**  
+
+🚀 **L’objectif ?**  
+Créer une base **solide et intuitive** permettant aux utilisateurs de **visualiser, filtrer et réserver des chambres**, tout en laissant place à **l’expérimentation et l’amélioration du design selon un esprit DIY.**  
+
 ![Project uunder Construction](/UC-1.png)
 
 ---
