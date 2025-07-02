@@ -7,16 +7,16 @@
 🚀 **L’objectif ?**  
 Créer une base **solide et intuitive** permettant aux utilisateurs de **visualiser, filtrer et réserver des chambres**, tout en laissant place à **l’expérimentation et l’amélioration du design selon un esprit DIY.**  
 
-![Project uunder Construction](/UC-1.png)
+![Project under Construction](/UC-1.png)
 
 ---
 
 ### 🏨 **L’Hôtel Fictif : Hôtel n°1**  
 🛌 **Un établissement fictif pensé pour tester et développer**  
 ✅ Différents types de chambres (**Suite, Standard, Deluxe**)  
-✅ Possibilité de **filtrer les chambres** selon plusieurs critères (**type, prix, accessibilité, disponibilité**)  
-✅ **Tri avancé** pour trouver la meilleure offre  
-✅ **Réservation intégrée** pour une gestion complète  
+✅ Le backend permet de **filtrer les chambres** selon plusieurs critères (via les données : **type, prix, disponibilité**)  
+✅ **Tri des résultats** côté backend pour optimiser la recherche  
+✅ **Système de réservation intégré** incluant la vérification de disponibilité 
  
 
 ---
@@ -40,13 +40,14 @@ Créer une base **solide et intuitive** permettant aux utilisateurs de **visuali
 
 ---
 
-### 🔥 **Prochaines améliorations**  
-✅ **Ajouter un système de réservation complet**  
-✅ **Peaufiner l’affichage des chambres** avec une mise en page plus intuitive  
-✅ **Optimiser l’expérience utilisateur** via une interface fluide et interactive  
-✅ **Expérimenter des animations et interactions avancées en SASS**  
+### 🔥 **Prochaines améliorations**  
+✅ **Affiner et améliorer le système de réservation existant** (ex: modification/annulation plus flexibles)  
+✅ **Peaufiner l’affichage des chambres** avec une mise en page plus intuitive et des détails visuels.  
+✅ **Optimiser l’expérience utilisateur** via une interface fluide et interactive.  
+✅ **Explorer les filtres et options de recherche** côté frontend pour les chambres.  
+✅ **Expérimenter des animations et interactions avancées** pour enrichir l'interface.    
 
 ---
 
 > [!NOTE]
-> _Projet en cours..._
+> _Ce projet est en développement actif. Les mises à jour sont poussées régulièrement depuis un dépôt de travail privé._
