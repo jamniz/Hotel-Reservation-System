@@ -13,10 +13,10 @@ Créer une base **solide et intuitive** permettant aux utilisateurs de **visuali
 
 ### 🏨 **L’Hôtel Fictif : Hôtel n°1**  
 🛌 **Un établissement fictif pensé pour tester et développer**  
-✅ Différents types de chambres (**Suite, Standard, Deluxe**)  
-✅ Le backend permet de **filtrer les chambres** selon plusieurs critères (via les données : **type, prix, disponibilité**)  
-✅ **Tri des résultats** côté backend pour optimiser la recherche  
-✅ **Système de réservation intégré** incluant la vérification de disponibilité 
+✅ Différents types de chambres (**Suite, Standard, Deluxe**)   
+✅ Le backend permet de **filtrer les chambres** selon plusieurs critères (via les données : **type, prix, disponibilité**)  
+✅ **Tri des résultats** côté backend pour optimiser la recherche  
+✅ **Système de réservation intégré** incluant la vérification de disponibilité  
  
 
 ---
@@ -29,8 +29,8 @@ Créer une base **solide et intuitive** permettant aux utilisateurs de **visuali
 
 ---
 
-### 🔥 **Amélioration du design : Une approche sur-mesure avec SASS**  
-💡 **Plutôt que de s’appuyer sur un framework pré-construit**, ce projet met l’accent sur **une personnalisation totale** grâce à SASS et une structuration claire du CSS.  
+### 🔥 **Amélioration du design : Une approche sur-mesure et évolutive**  
+💡 **Plutôt que de s’appuyer sur un framework pré-construit**, ce projet met l’accent sur **une personnalisation totale** grâce à une structuration claire du CSS **via une approche vanilla**.  
 
 ✅ **Flexibilité maximale** pour adapter l’interface aux besoins spécifiques  
 ✅ **Gestion optimisée des styles**, permettant une adaptation facile  
