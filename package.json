@@ -1,0 +1,31 @@
+{
+  "name": "hotel-reservation-system-v2",
+  "version": "1.0.0",
+  "description": "Hotel Reservation System – Une immersion fictive dans la gestion hôtelière (v2)\r ***\r #### ***Projet perso***  \r ***\r Public → \r https://github.com/jamniz/Hotel-Reservation-System",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamniz/Hotel-Reservation-System-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamniz/Hotel-Reservation-System-2/issues"
+  },
+  "homepage": "https://github.com/jamniz/Hotel-Reservation-System-2#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "object-assign": "^4.1.1"
+  }
+}

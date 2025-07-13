@@ -1,0 +1,107 @@
+[
+    {
+        "roomNumber": 101,
+        "type": "Suite",
+        "price": 200,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Mini-bar",
+            "Balcon"
+        ],
+        "available": true,
+        "accessibility": true,
+        "_id": "680f4add5044c2fc4bf32c7a",
+        "__v": 0
+    },
+    {
+        "roomNumber": 102,
+        "type": "Standard",
+        "price": 120,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Mini-bar"
+        ],
+        "available": false,
+        "accessibility": true,
+        "_id": "680f4add5044c2fc4bf32c7b",
+        "__v": 0
+    },
+    {
+        "roomNumber": 103,
+        "type": "Suite Deluxe",
+        "price": 300,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Mini-bar",
+            "Jacuzzi",
+            "Vue mer",
+            "Balcon"
+        ],
+        "available": true,
+        "accessibility": true,
+        "_id": "680f4add5044c2fc4bf32c7c",
+        "__v": 0
+    },
+    {
+        "roomNumber": 104,
+        "type": "Standard",
+        "price": 120,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Mini-bar"
+        ],
+        "available": true,
+        "accessibility": true,
+        "_id": "680f4add5044c2fc4bf32c7d",
+        "__v": 0
+    },
+    {
+        "roomNumber": 201,
+        "type": "Suite",
+        "price": 240,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Mini-bar",
+            "Balcon",
+            "Vue mer"
+        ],
+        "available": true,
+        "accessibility": false,
+        "_id": "680f4add5044c2fc4bf32c7e",
+        "__v": 0
+    },
+    {
+        "roomNumber": 202,
+        "type": "Suite",
+        "price": 200,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Mini-bar",
+            "Balcon"
+        ],
+        "available": true,
+        "accessibility": false,
+        "_id": "680f4add5044c2fc4bf32c7f",
+        "__v": 0
+    },
+    {
+        "roomNumber": 203,
+        "type": "Standard",
+        "price": 120,
+        "amenities": [
+            "WiFi",
+            "TV",
+            "Mini-bar"
+        ],
+        "available": true,
+        "accessibility": false,
+        "_id": "680f4add5044c2fc4bf32c80",
+        "__v": 0
+    }
+]

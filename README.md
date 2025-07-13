@@ -51,3 +51,41 @@ Créer une base **solide et intuitive** permettant aux utilisateurs de **visuali
 
 > [!NOTE]
 > _Ce projet est en développement actif. Les mises à jour sont poussées régulièrement depuis un dépôt de travail privé._
+
+---
+<details>
+
+<summary>Démarrage rapide (Local)</summary>
+
+
+### ⚙️ **Démarrage rapide (Local)**  
+
+Pour lancer ce projet en local, suivez ces étapes :
+
+1.  **Clonez le dépôt :**
+    ```bash
+    git clone https://github.com/jamniz/Hotel-Reservation-System.git
+    cd Hotel-Reservation-System
+    ```
+2.  **Installez les dépendances :**
+    ```bash
+    npm install
+    ```
+3.  **Configurez les variables d'environnement :**
+    Créez un fichier `.env` à la racine du projet, basé sur le modèle `.env.example`. Renseignez vos propres valeurs pour la connexion à la base de données et les secrets JWT.
+    ```
+    # Exemple de contenu pour .env
+    MONGO_URI=your_mongodb_connection_string
+    JWT_SECRET=your_jwt_secret_key
+    PORT=3000
+    ```
+4.  **Démarrez le serveur :**
+    ```bash
+    npm start
+    # ou npm run dev (si vous avez un script de développement)
+    ```
+5.  **Accédez à l'application :**
+    Ouvrez votre navigateur et naviguez vers `http://localhost:3000` (ou le port que vous avez configuré).
+
+---
+</details>

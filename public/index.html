@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hôtel N°1</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenue à l'Hôtel N°1</h1>
+        <nav>
+            <div id="authButtons">
+                <button id="registerBtn">S'inscrire</button>
+                <button id="loginBtn">Se connecter</button>
+                <button id="logoutBtn" style="display: none;">Se déconnecter</button>
+            </div>
+            <p id="userConnected"></p>
+        </nav>
+    </header>
+
+    <main>
+        <div id="alertBox" style="display: none; padding: 10px; margin-bottom: 15px; border-radius: 5px;"></div>
+
+        <div id="roomFilterSection">
+            <h2>Rechercher et Filtrer les Chambres</h2>
+            <form id="roomFilterForm">
+                <fieldset class="date-filters">
+                    <legend>Dates de séjour</legend>
+                    <label for="filterCheckInDate">Date d'arrivée :</label>
+                    <input type="date" id="filterCheckInDate" required>
+
+                    <label for="filterCheckOutDate">Date de départ :</label>
+                    <input type="date" id="filterCheckOutDate" required>
+                </fieldset>
+
+                <fieldset class="other-filters">
+                    <legend>Critères supplémentaires</legend>
+                    <label for="filterType">Type de chambre :</label>
+                    <select id="filterType">
+                        <option value="">Tous</option>
+                        <option value="Standard">Standard</option>
+                        <option value="Suite">Suite</option>
+                        <option value="Suite Deluxe">Suite Deluxe</option>
+                    </select>
+
+                    <label for="filterAccessibility">Accessible :</label>
+                    <select id="filterAccessibility">
+                        <option value="">Toutes</option>
+                        <option value="true">Oui</option>
+                        <option value="false">Non</option>
+                    </select>
+
+                    <label for="filterPriceMax">Prix Max (€) :</label>
+                    <input type="range" id="filterPriceMax" min="50" max="500" step="10">
+                    <span id="priceValue">500€</span> <label for="filterSortPrice">Trier par prix :</label>
+                    <select id="filterSortPrice">
+                        <option value="">Non trié</option>
+                        <option value="priceAsc">Prix croissant</option>
+                        <option value="priceDesc">Prix décroissant</option>
+                    </select>
+                </fieldset>
+
+                <button type="submit">Rechercher les Chambres</button>
+            </form>
+            <ul id="roomsList"></ul>
+        </div>
+
+        <div id="reservationSection">
+            <h2>Réserver une Chambre</h2>
+            <form id="reservationForm">
+                <label for="customerName">Nom du Client :</label>
+                <input type="text" id="customerName" required>
+
+                <label for="roomNumber">Numéro de Chambre :</label>
+                <input type="number" id="roomNumber" required>
+
+                <label for="checkInDate">Date d'Arrivée :</label>
+                <input type="date" id="checkInDate" required>
+
+                <label for="checkOutDate">Date de Départ :</label>
+                <input type="date" id="checkOutDate" required>
+
+                <label for="specialRequests">Demandes spéciales (optionnel) :</label>
+                <textarea id="specialRequests" name="specialRequests" rows="4" cols="50"
+                    placeholder="Ex: oreillers supplémentaires,..."></textarea>
+
+                <button type="submit">Réserver</button>
+            </form>
+        </div>
+
+        <div id="myReservationsSection">
+            <h2>Réservations</h2>
+            <ul id="reservationsList"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Hôtel N°1. Tous droits réservés. 🔹 <a href="https://github.com/jamniz"
+                title="jamniz/GitHub">GitHub
+                (@jamniz)</a></p>
+    </footer>
+
+</body>
+
+</html>
